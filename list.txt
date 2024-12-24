@@ -1,0 +1,4 @@
+Service Discovery (Eureka)
+API Gateway
+Config Server
+Authentication Server

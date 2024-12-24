@@ -1,0 +1,13 @@
+spring.application.name: discovery
+
+server.port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false # Do not register this service with Eureka
+    fetch-registry: false # Do not fetch the registry from Eureka
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ # URL of the Eureka server
+  server:
+    enable-self-preservation: false # Disable self-preservation mode
+    wait-time-in-ms-when-sync-empty: 0 # Wait time when the sync is empty
